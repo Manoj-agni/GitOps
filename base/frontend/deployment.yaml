@@ -30,7 +30,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: manojkrishnappa/frontend:9
+          image: agnimanu/frontend:aa583fab62f6fcbd9c62991e8e3fa257e198b113
           ports:
           - containerPort: 8080
           readinessProbe:
