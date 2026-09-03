@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: agnimanu/paymentservice:cb6f7b029083bd846748d7069173563b8056da12
+        image: agnimanu/paymentservice:3f585af7100ea61ce0760ba239a6b31c625c5cbb
         ports:
         - containerPort: 50051
         env:
