@@ -86,7 +86,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: redis:alpine
+        image: agnimanu/cartservice:a17839b40b52d7dfdaae957a89e93dd706b98540
         ports:
         - containerPort: 6379
         readinessProbe:
