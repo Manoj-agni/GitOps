@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: agnimanu/productcatalogservice:1236f7cb5388b7589e37568c772e9b2d6066982b
+        image: agnimanu/productcatalogservice:9fe119c5eeef70f2718061dee714fe850cf67687
         ports:
         - containerPort: 3550
         env:
