@@ -22,7 +22,7 @@ spec:
         fsGroup: 1000
       containers:
       - name: server
-        image: agnimanu/authservice:33540637c2f88127099ccbedf876155e7eda101a
+        image: agnimanu/authservice:null
         ports:
         - containerPort: 8081
         securityContext:
