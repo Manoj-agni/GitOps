@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: manojkrishnappa/paymentservice:3d6ccd3e00494434c24ca9e9b4a46e08f67d05e9
+        image: agnimanu/paymentservice:08e949a4c01c67eed88c08cc63ca848b4e2a5787
         ports:
         - containerPort: 50051
         env:
