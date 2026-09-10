@@ -30,7 +30,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: agnimanu/frontend:null
+          image: agnimanu/frontend:86eef1032628acc06ac7f0036f8a4971b369d164
           ports:
           - containerPort: 8080
           readinessProbe:
